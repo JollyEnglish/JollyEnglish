@@ -1,0 +1,39 @@
+---
+title: Jolly English - Agnieszka Korsak
+layout: default
+---
+
+{% include navigation.html %}
+
+<header class='logo-wrapper'>
+    <div class='small-logo'>
+        Szkoła Języków Obcych
+    </div>
+    <div class='big-logo'>
+        Jolly
+        <a href='https://facebook.com/629970210750243'><i class='fa fa-facebook-official' style='font-size:96px;color:#cfc8f8'></i></a>
+    </div>
+</header>
+
+{% for slides in site.slajdy %}
+        <h1 class='separator'>{{ slides.title }}</h1>
+<section class='parallax' id='{{ slides.name }}'>
+    <div class='white-box'>
+        <p>{{ slides.content | markdownify }}</p>
+        {% if slides.title == 'Kontakt' %}
+            {% include map.html %}
+        {% endif %}
+    </div>
+</section>
+{% endfor %}
+
+<h1 class='separator'>Galeria</h1>
+<div class="scrollmenu">
+    {% for image in site.static_files %}
+        {% if image.path contains 'img/gallery' %}
+            <img src='{{ site.baseurl }}{{ image.path}}' alt='image' />
+        {% endif %}
+    {%endfor %}
+</div>
+
+{% include footer.html %}

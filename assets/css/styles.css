@@ -1,0 +1,173 @@
+body {
+    width:                  100%;
+    margin:                 0;
+    padding:                0;
+}
+
+
+.logo-wrapper {
+    height:                 100vh;
+    text-align:             center;
+}
+.small-logo {
+    font-size:              3vh;
+    margin-top:             3%;
+
+}
+.big-logo {
+    font-size:              calc(100px + 10vw);
+    font-family:            'Pacifico',cursive;
+    margin-top:             0;
+    padding-bottom:         5vh;
+}
+
+
+/* fajne kolory:
+ * #e24e42, #e9b000, #eb6e80, #008f95
+ * #004080, #800000, #fff
+ *
+ */
+nav {
+    top:                    0;
+    position:               sticky;
+    position:               -webkit-sticky; /* Safari */
+    width:                  100%;
+    padding-top:            2vh;
+    padding-bottom:         2vh;
+    background-color:       #ecdfdb;
+    text-align:             center;
+}
+
+nav a {
+    color:                  #3b3a35;
+    font-family:            'Raleway', sans-serif;
+    font-size:              2.5em;
+    padding-bottom:         2vh;
+    padding-top:            2vh;
+    padding-left:           1vw;
+    padding-right:          1vw;
+    height:                 100%;
+    transition:             0.3s;
+}
+
+nav a:hover {
+    background-color:       #fdefec;
+}
+
+
+main {
+    font-family:            'Lato', sans-serif;
+    margin-top:             0;
+    margin-bottom:          0;
+    font-size:              calc(30px + 0.5vw);
+    line-height:            1.6;
+    background-color:       #20457c;
+}
+
+a {
+    text-decoration:        none;
+    color:                  #232323;
+}
+
+footer {
+    padding:                3vh;
+    background-color:       #fff;
+    text-align:             center;
+    color:                  #000;
+}
+
+.separator {
+    font-family:            'Raleway', sans-serif;
+    font-size:              3em;
+    text-align:             center;
+    background-color:       #ecdfdb;
+    color:                  #3b3a35;
+    margin:                 0;
+    padding:                30px;
+}
+
+.map {
+    margin:                 auto;
+}
+
+.parallax {
+  /* The image used */
+
+  /* Set a specific height */
+  height:                   auto;
+  min-height:               80vh;
+
+  /* Create the parallax scrolling effect */
+  padding:                  100px;
+  background-attachment:    fixed;
+  background-position:      center;
+  background-repeat:        no-repeat;
+  background-size:          cover;
+  font-size:                1.4em;
+  line-height:              1.8;
+}
+
+#o_mnie {
+    background-image:       url("../img/cat.jpg");
+}
+
+#czego_sie_spodziewac {
+    background-image:       url("../img/car.jpg");
+}
+
+#nauka_poprzez_skype {
+    background-image:       url("../img/coffee.jpg");
+}
+
+#konwersacje {
+    background-image:       url('../img/letter.jpg');
+}
+
+#podreczniki {
+    background-image:       url('../img/bw-text.jpg');
+}
+
+#cennik {
+    background-image:       url('../img/england.jpg');
+}
+
+#kontakt {
+    background-image:       url('../img/big-ben.jpg');
+}
+
+.white-box {
+    width:                  60vw;
+    height:                 auto;
+    margin:                 auto;
+    margin-left:            auto;
+    margin-right:           auto;
+    background:             rgba(255,255,255,0.9);
+    padding:                30px;
+    -webkit-box-shadow:     0 1px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow:        0 1px 2px rgba(0,0,0,0.15);
+    box-shadow:             0 1px 2px rgba(0,0,0,0.15);
+    -webkit-border-radius:  0px;
+    -moz-border-radius:     0px;
+    -ms-border-radius:      0px;
+    -o-border-radius:       0px;
+    border-radius:          0px;
+}
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu img {
+  display: inline-block;
+  color: white;
+  /*text-align: center;*/
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  /*text-decoration: none;*/
+  max-width:100vw;
+  max-height:80vh;
+}
