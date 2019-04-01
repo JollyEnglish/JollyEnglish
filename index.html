@@ -30,7 +30,7 @@ layout: default
 <h1 class='separator'>Galeria</h1>
 <div class="scrollmenu">
     {% for image in site.static_files %}
-        {% if image.path contains 'img/gallery' %}
+        {% if image.path contains 'img/gallery/' %}
             <img src='{{ site.baseurl }}{{ image.path}}' alt='image' />
         {% endif %}
     {%endfor %}
