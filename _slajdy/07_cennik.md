@@ -6,10 +6,10 @@ title: Cennik
 
 # Język angielski:
 ---
-- Zajęcia indywiduane- **55zł**
+- Zajęcia indywiduane- **50zł**
 - Zajęcia w parach - **30zł** za osobę
 - Zajęcia, na których są trzy osoby lub więcej- **25zł** za osobę
-- Zajęcia prowadzone poprzez komunikator internetowy Skype- **60zł** (55 min) lub 35zł (30 min).
+- Zajęcia prowadzone poprzez komunikator internetowy Skype- **60zł** (55 min) lub **40zł** (30 min).
 - Zajęcia jednorazowe w gabinecie lub za pośrednictwem internetowego komunikatora Skype- **50zł** za 45 min
 
 *(1 godzina= 55min)*
