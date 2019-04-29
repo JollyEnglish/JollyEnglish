@@ -1,0 +1,6 @@
+---
+name: lekcje_jednorazowe
+title: Nagła pomoc- jednorazowe lekcje
+---
+
+Oferuję jednorazowe lekcje, które przydają się zwłaszcza przed trudnymi sprawdzianami lub nagłymi wyjazdami związanymi z pracą. Lekcje te mają charakter korepetycji lub konwersacji, w zależności od potrzeb ucznia. Zajęcia jednorazowe mogą być prowadzone również przez komunikator internetowy Skype.

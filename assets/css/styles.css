@@ -138,6 +138,10 @@ footer {
     background-image:       url("../img/car.jpg");
 }
 
+#lekcje_jednorazowe {
+    background-image:        url("../img/bus.jpg");
+}
+
 #nauka_poprzez_skype {
     background-image:       url("../img/coffee.jpg");
 }
@@ -220,4 +224,8 @@ div.scrollmenu img {
         width:80vw;
         padding:10px;
     }
+    .big-logo {
+        font-size:          25vw;
+    }
+
 }
